@@ -1,0 +1,467 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    max-width: 1000px;
+    margin: auto;
+}
+.logo{
+    width: 200px;
+
+}
+li{
+    list-style: none;
+    font-size: 22px;
+    color: chocolate;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    
+}
+.nav-container{
+    background-image:url('/telecom.jpg') ;
+    padding: 7px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 160px;
+    padding-bottom: 170px;
+    min-height: 90vh;
+    
+}
+.second-line{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.se-img{
+    height: 300px;
+}
+.menu-container{
+    display: flex;
+    gap: 15px;
+    margin-top: 80px;
+
+}
+.description{
+    margin-top: 100px;
+    padding-top: 100px;
+    text-align: center;
+    width: 100%;
+}
+.description p{
+    color:rgb(239, 12, 28);
+    font-size: 25px;
+}
+.description h1{
+    font-size: 40px;
+    color:rgb(128, 246, 10);
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.btn{
+    width: 30%;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(66, 192, 142);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+li:hover{
+    cursor: pointer;
+    color: blue;
+}
+.loads-of-logo{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(191, 180, 180);
+    width: 750px;
+    height: 100px;
+    align-items: center;
+    border-radius: 15px;
+
+}
+.multiplelogo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.shead{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.dservice{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 80px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.row1, .row2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.logo-card{
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    margin-bottom:-15px;
+    padding: 20px;
+}
+.card-heading{
+    text-align: center;
+}
+.service-card{
+    border: 1px solid gray;
+    min-height: 60vh;
+    width: 500px;
+    border-radius: 30px;
+    padding: 20px;
+}
+.card-description{
+    text-align: center;
+    padding: 10px;
+}
+.security-img{
+    min-height: 75vh;
+    max-width: 350px;
+
+}
+.bottom{
+    display: flex;
+    margin-top: 60px;
+}
+.btn-hire{
+    background-color:aqua;
+    border:none;
+    width: 60px;
+    height: 35px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.despo{
+    color: orange;
+    font-size: 60px;
+    
+}
+.des{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.num{
+    margin-top: 20px;
+    font-size: 35px;
+}
+.logo2{
+    width:100px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+}
+h3{
+    margin-top: 30px;
+    margin-left: -25px;
+    color: white;
+}
+.part1{
+    justify-content: center;
+    text-align: center;
+    text-wrap: wrap;
+    width: 20%;
+    color:white;
+}
+footer li{
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
+}
+.email{
+    border:none;
+    box-shadow: 2px 2px 3px gray;
+    margin-top: 20px;
+    height: 25px;
+}
+.part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.part2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+.footer{
+    max-width: 900px;
+    background-color: black;
+    margin-inline: 20px;
+    
+}
+.learn-more{
+    margin-top: 40px;
+    color: rgb(227, 21, 21);
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    body{
+        width: 431px;
+    }
+    .logo{
+        width: 120px;
+        margin-top: 30px;
+    }
+    li{
+        list-style: none;
+        font-size: 18px;
+        color: chocolate;
+        font-weight: bold;
+    }
+    .second-line{
+        display: block;
+        margin-top: -210px;
+    }
+    .sec-img{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .menu-container{
+        display: flex;
+        gap: 15px;
+        margin-top: 80px;
+    
+    }
+    .description{
+        padding-top: 100px;
+        text-align: center;
+        width: 100%;
+    }
+    .description p{
+        color:rgb(12, 220, 239);
+        font-size: 25px;
+    }
+    .description h1{
+        font-size: 35px;
+        color:rgb(128, 246, 10);
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-top: 20px;
+    }
+    .loads-of-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: rgb(191, 180, 180);
+        width: 90px;
+        height: 500px;
+        align-items: center;
+        border-radius: 15px;
+    
+    }
+    .shead{
+        text-align: center;
+        font-size: 50px;
+        margin-top: 60px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .dservice{
+        width: 60%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 80px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .row1,.row2{
+        display: flex;
+        flex-direction: column;        
+        margin-top: 20px;
+    }
+    .logo-card{
+        width: 100px;
+        height: 100px;
+        align-items: center;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .service-card{
+        border: 1px solid gray;
+        height: 50vh;
+        width: 50%;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 30px;
+        border-radius: 20px;
+    }
+    .card-description, .card-heading{
+        text-align: center;
+        padding: 10px;
+    }
+    .security-img{
+        height: 60vh;
+        margin-left: 40px;
+        margin-right: 30px;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    .btn-hire{
+        background-color:aqua;
+        border:none;
+        width: 60px;
+        height: 35px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+    .despo{
+        font-size: 50px;
+    }
+    .bottom-right{
+        margin: 40px;
+    }
+    .logo2{
+        width:80px;
+    }
+    .head{
+        display: flex;
+        justify-content: center;
+        margin-bottom: -20px;
+    }
+    .part{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .part1{
+        line-height: 25px;
+        text-align: center;
+        width: 30%;
+        color:white;
+    }
+    .part2{
+        display: flex;
+        flex-direction: column;
+    }
+    .learn-more{
+        color: rgb(223, 32, 32);
+        font-size: 22px;
+    }
+}
+ @media (min-width: 768px) {
+    body{
+        width: 760px;
+    }
+    .logo{
+        width: 150px;
+    
+    }
+    .second-line{
+        display: flex;
+        justify-content: space-around;
+        padding: 40px;
+    }
+    .se-img{
+        width: 120%;
+        margin-top: 100px;
+    }
+   
+    .description{
+        margin-top: 100px;
+        padding-top: 100px;
+        text-align: center;
+    }
+    .description p{
+        color:rgb(239, 12, 28);
+        font-size: 25px;
+    }
+    .description h1{
+        font-size: 40px;
+        color:rgb(128, 246, 10);
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-top: 20px;
+    }
+    .btn{
+        width: 50%;
+    }
+    .loads-of-logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: rgb(191, 180, 180);
+        width: 750px;
+        height: 100px;
+        align-items: center;
+        border-radius: 15px;
+    
+    }
+    .row1, .row2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    .logo-card{
+        width: 150px;
+        height: 150px;
+        align-items: center;
+        margin-bottom:-15px;
+        padding: 20px;
+    }
+    .service-card{
+        border: 1px solid gray;
+        height: 70vh;
+        width: 25%;
+    }
+    .card-description{
+        text-align: center;
+        padding: 10px;
+    }
+    .security-img{
+        height: 80vh;
+        margin-left: 40px;
+        margin-right: 30px;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        margin-top: 60px;
+    }
+    .btn-hire{
+        background-color:aqua;
+        border:none;
+        width: 60px;
+        height: 35px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+    .despo{
+        color: orange;
+        font-size: 50px;
+        
+    }
+} 
